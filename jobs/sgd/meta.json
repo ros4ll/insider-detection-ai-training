@@ -1,0 +1,9 @@
+{
+    "name": "insider-detection-sgd",
+    "resource_spec": {},
+    "deploy_map": {
+      "app": [
+        "@ALL"
+      ]
+    }
+  }

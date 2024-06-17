@@ -1,0 +1,26 @@
+{'__headers__': 
+    {'__content_type__': 'DXO', 
+    'current_round': 0, 
+    'num_rounds': 1, 
+     '__cookie_jar__': 
+          {'contribution_round': 0, 
+           '__workflow__': 'scatter_and_gather', 
+           '__task_id__': '05f61a1a-8771-491a-8491-eb5b0b7819a5'}, 
+    '__task_name__': 'train', 
+    '__task_operator__': 
+            {'op_id': 'train', 
+             'method': 'bcast', 
+             'timeout': 0, 
+             'aggregator': 'aggregator'}, 
+    '__task_id__': '05f61a1a-8771-491a-8491-eb5b0b7819a5', 
+    '__audit_event_id__': None, 
+    '__wait_time__': 2, 
+    'task_name': 'train', 
+    '__peer_ctx__': <nvflare.apis.fl_context.FLContext object at 0x7ff3ec16ae20>, 
+    '__peer_props__': 
+        {'__run_num__':'simulate_job', 
+         '__identity_name__': 'simulator_server'}}, 
+'DXO': 
+{'kind': 'WEIGHTS', 
+ 'data': {'kernel': 'rbf'}, 
+ 'meta': {}}}

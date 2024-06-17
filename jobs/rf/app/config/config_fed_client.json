@@ -1,0 +1,20 @@
+{
+      "format_version": 2,
+      "executors": [
+        {
+          "tasks": [
+            "train"
+          ],
+          "executor": {
+            "path": "knn_trainer.KNNTrainer", 
+            "args": {
+              "data_path" : "~/insider-detection-ai-training/data/samples/{SITE_NAME}/train_data.csv",
+              "train_task_name": "train"
+            }
+          }
+        }
+      ],
+      "task_result_filters": [],
+      "task_data_filters": [],
+      "components": []
+}
