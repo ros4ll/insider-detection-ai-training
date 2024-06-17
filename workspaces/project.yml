@@ -1,6 +1,6 @@
 api_version: 3
 name: insider-detection-ai-training
-description: Insider detection AI training proyect description file
+description: Insider detection AI training project description file
 
 participants:
   # change example.com to the FQDN of the server
@@ -35,3 +35,5 @@ builders:
     args:
       # config_folder can be set to inform upm FLARE where to get configuration
       config_folder: config
+  - path: nvflare.lighter.impl.cert.CertBuilder
+  - path: nvflare.lighter.impl.signature.SignatureBuilder

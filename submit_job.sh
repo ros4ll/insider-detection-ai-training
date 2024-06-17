@@ -15,8 +15,8 @@ then
   workspace="/tmp/nvflare/poc"
   admin_username="rubu"
 else
-  echo "Submit secure job ${job}"
-  workspace="${PWD}/workspaces/secure_workspace"
+  echo "Submit test job ${job}"
+  workspace="${PWD}/workspaces/test_workspace"
   admin_username="rosa.llorente.alonso@alumnos.upm.es"
 fi
 
