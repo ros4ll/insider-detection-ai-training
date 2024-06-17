@@ -1,0 +1,16 @@
+{
+  "format_version": 2,
+  "servers": [
+    {
+      "name": "insider-detection-ai-training",
+      "service": {
+        "scheme": "grpc"
+      }
+    }
+  ],
+  "client": {
+    "ssl_private_key": "client.key",
+    "ssl_cert": "client.crt",
+    "ssl_root_cert": "rootCA.pem"
+  }
+}
