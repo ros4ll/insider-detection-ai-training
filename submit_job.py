@@ -10,7 +10,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--admin_dir", type=str, default="./admin/", help="Path to admin directory.")
     parser.add_argument("--username", type=str, default="rosa.llorente.alonso@alumnos.upm.es", help="Admin username.")
-    parser.add_argument("--job", type=str, default="cifar10_fedavg", help="Path to job")
+    parser.add_argument("--job", type=str, default="sdg", help="Path to job")
     parser.add_argument("--poc", action="store_true", help="Whether admin does not use SSL.")
 
     args = parser.parse_args()

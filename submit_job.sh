@@ -12,8 +12,8 @@ then
     echo "${poc} not supported to run POC mode. Use --poc"
   fi
   echo "Submit poc job ${job}"
-  workspace="/tmp/nvflare/poc"
-  admin_username="rubu"
+  workspace="/tmp/nvflare/poc/example_project/prod_00"
+  admin_username="admin@nvidia.com"
 else
   echo "Submit test job ${job}"
   workspace="${PWD}/workspaces/test_workspace"
